@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": ["jest"],
+  "extends": ["eslint:recommended", "plugin:react/recommended","plugin:jest/recommended"],
+  "globals": {
+    "global": "writable",
+    "test": "readonly",
+    "console": "readonly",
+    "window": "writable"
+  }
+}

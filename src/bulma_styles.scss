@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+
+.column {
+  &.line-item {
+    .fas {
+      padding-right: 15px;
+    }
+  }
+}
+
+.cart-content{
+  margin: auto;
+  padding: 2rem;
+}
+
+.cart-total{
+  padding: 1rem;
+}
